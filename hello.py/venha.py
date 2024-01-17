@@ -1,0 +1,25 @@
+import turtle
+t=turtle.Turtle()
+#Buoc 1
+t.penup()
+t.goto(-200,-200)
+t.pendown()
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+#Buoc 2
+t.left(45)
+t.forward(70)
+t.right(90)
+t.forward(70)
+#Buoc 3
+t.penup()
+t.goto(200,200)
+t.pendown()
+t.circle(50)
+turtle.done()
